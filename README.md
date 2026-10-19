@@ -266,5 +266,5 @@ These skills form part of my ongoing cybersecurity development, particularly in 
 Cybersecurity Professional
 
 - GitHub: [https://github.con/AFalconn]
-- LinkedIn: [Add your LinkedIn profile URL]
+- LinkedIn: [https://www.linkedin.com/in/amarachi-faith]
 
