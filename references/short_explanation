@@ -1,0 +1,17 @@
+## 1. Explanation of Linux Commands
+
+A. `grep`
+
+The `grep` command searches files for specific words, phrases, or patterns. It is useful for filtering log files to find important entries, such as `ERROR`, `WARNING`, or particular usernames.
+
+B. `chown`
+
+The `chown` command changes the owner of a file or directory. For example, `sudo chown root logs/confidential.txt` changes the owner of `confidential.txt` to the root user.
+
+C. `usermod`
+
+The `usermod` command modifies an existing Linux user account. It can be used to add a user to a group, such as adding `guest1` to the `sudo` group with `sudo usermod -aG sudo guest1`.
+
+## 2. What I Learned from Trying to Access `confidential.txt`
+
+I learned that changing a file's ownership and permissions affects who can access it. After changing the owner of `confidential.txt` to `root` while keeping its permissions set to `600`, only the root user had read and write access. Other users could not access the file unless they had sufficient privileges, such as through `sudo`. This practical helped me understand the importance of Linux file ownership and permissions in protecting confidential information.
